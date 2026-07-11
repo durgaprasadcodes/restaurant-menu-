@@ -13,7 +13,7 @@ export default function Item() {
         async function fetchItem() {
             try {
                 setLoading(true)
-                const response = await axios.get(`http://localhost:5143/foods/${id}`)
+                const response = await axios.get(`https://restaurant-menu-wn6l.onrender.com/foods${id}`)
                 setItem(response.data)
             } catch (err) {
                 setError('Unable to load recipe details. Please try again.')
@@ -74,9 +74,9 @@ export default function Item() {
                 {/* Visual Showcase (Left) */}
                 <div className="detail-visuals">
                     <span className="detail-category-badge">{item.category}</span>
-                    <img 
-                        src={item.image || "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"} 
-                        alt={item.name} 
+                    <img
+                        src={item.image || "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"}
+                        alt={item.name}
                         className="detail-img"
                     />
                     <div className="detail-visual-overlay"></div>
@@ -85,7 +85,7 @@ export default function Item() {
                 {/* Info and Chef Recipe Steps (Right) */}
                 <div className="detail-info">
                     <h1 className="detail-name">{item.name}</h1>
-                    
+
                     <div className="detail-rating" aria-label="Rating: 5 out of 5 stars">
                         ★★★★★ <span style={{ color: 'var(--text-muted)', marginLeft: '8px', fontSize: '0.85rem' }}>(4.9 / 5.0 Rating)</span>
                     </div>
@@ -117,15 +117,15 @@ export default function Item() {
 
                     {/* Dining Booking / Order Mock Panel */}
                     <div className="order-action-panel">
-                        <button 
-                            className="btn-order-now" 
+                        <button
+                            className="btn-order-now"
                             onClick={() => alert(`Your table reservation has been requested for: ${item.name}. Our hostess will contact you shortly!`)}
                             id="order-dish-btn"
                         >
                             Reserve / Pre-Order Dish
                         </button>
-                        <button 
-                            className="btn-wishlist" 
+                        <button
+                            className="btn-wishlist"
                             title="Save to Favorites"
                             onClick={(e) => {
                                 e.currentTarget.style.color = '#e25c5c';

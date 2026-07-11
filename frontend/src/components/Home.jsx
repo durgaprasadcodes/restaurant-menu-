@@ -14,7 +14,7 @@ function Home() {
             try {
                 setLoading(true);
                 const response = await axios.get(
-                    "http://localhost:5143/foods"
+                    "https://restaurant-menu-wn6l.onrender.com/foods"
                 );
                 setItems(response.data);
             } catch (error) {
