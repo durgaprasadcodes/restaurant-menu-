@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import api from "../api";
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -13,9 +13,7 @@ function Home() {
         async function fetchFoods() {
             try {
                 setLoading(true);
-                const response = await axios.get(
-                    "https://restaurant-menu-wn6l.onrender.com/foods"
-                );
+                const response = await api.get("/foods");
                 setItems(response.data);
             } catch (error) {
                 console.log(error);

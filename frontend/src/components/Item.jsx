@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import axios from 'axios'
-
+import api from "../api";
 export default function Item() {
     const { id } = useParams()
     const navigate = useNavigate()
@@ -13,7 +12,7 @@ export default function Item() {
         async function fetchItem() {
             try {
                 setLoading(true)
-                const response = await axios.get(`https://restaurant-menu-wn6l.onrender.com/foods${id}`)
+                const response = await api.get(`/foods/${id}`)
                 setItem(response.data)
             } catch (err) {
                 setError('Unable to load recipe details. Please try again.')
