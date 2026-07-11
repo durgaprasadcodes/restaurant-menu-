@@ -1,0 +1,555 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "name": "Margherita Pizza",
+            "category": "Italian",
+            "price": 299,
+            "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca",
+            "preparation": [
+                "Prepare pizza dough with flour, yeast, water, salt, and olive oil",
+                "Knead dough until smooth and let it rise for 1-2 hours",
+                "Punch down dough and shape into a round base",
+                "Preheat oven or pizza stone to a high temperature",
+                "Spread a thin layer of San Marzano tomato sauce over the base",
+                "Tear fresh mozzarella into pieces and distribute evenly",
+                "Drizzle with extra virgin olive oil",
+                "Bake until crust is golden and cheese is bubbling",
+                "Remove from oven and garnish with fresh basil leaves",
+                "Slice and serve immediately while hot"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Cheeseburger",
+            "category": "American",
+            "price": 349,
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+            "preparation": [
+                "Shape ground beef into evenly sized patties",
+                "Season patties with salt and pepper on both sides",
+                "Preheat grill or skillet to medium-high heat",
+                "Sear patties for 3-4 minutes per side to desired doneness",
+                "Place a cheese slice on each patty to melt during last minute",
+                "Toast burger buns lightly on the grill",
+                "Spread condiments such as ketchup, mustard, and mayo on buns",
+                "Layer lettuce, tomato, and onion on the bottom bun",
+                "Place the cheesy patty on top of the vegetables",
+                "Cover with top bun and serve with fries"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sushi Platter",
+            "category": "Japanese",
+            "price": 599,
+            "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351",
+            "preparation": [
+                "Rinse sushi rice thoroughly until water runs clear",
+                "Cook rice and season with rice vinegar, sugar, and salt",
+                "Let seasoned rice cool to room temperature",
+                "Slice fresh fish such as tuna and salmon into thin pieces",
+                "Prepare nori sheets and other fillings like cucumber and avocado",
+                "Lay nori on a bamboo mat and spread rice evenly",
+                "Add fillings and roll tightly using the bamboo mat",
+                "Slice rolls into bite-sized pieces with a sharp wet knife",
+                "Arrange rolls and nigiri pieces neatly on a platter",
+                "Serve with soy sauce, wasabi, and pickled ginger"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Caesar Salad",
+            "category": "Salads",
+            "price": 249,
+            "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1",
+            "preparation": [
+                "Wash and dry romaine lettuce leaves thoroughly",
+                "Tear or chop lettuce into bite-sized pieces",
+                "Prepare Caesar dressing with garlic, anchovy, lemon, and parmesan",
+                "Cube bread and toast with olive oil to make croutons",
+                "Toss lettuce with the prepared Caesar dressing",
+                "Grate fresh parmesan cheese over the salad",
+                "Add the freshly made croutons on top",
+                "Season with cracked black pepper",
+                "Optionally add grilled chicken strips",
+                "Toss gently and serve immediately"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Pad Thai",
+            "category": "Thai",
+            "price": 279,
+            "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e",
+            "preparation": [
+                "Soak rice noodles in warm water until softened",
+                "Prepare pad thai sauce with tamarind, fish sauce, and palm sugar",
+                "Heat oil in a wok over high heat",
+                "Stir-fry shrimp or chicken until nearly cooked through",
+                "Push protein aside and scramble an egg in the wok",
+                "Add drained noodles and pour in the prepared sauce",
+                "Toss everything together until noodles are evenly coated",
+                "Add bean sprouts and chopped green onions",
+                "Stir-fry briefly until vegetables are just tender",
+                "Plate and garnish with crushed peanuts and lime wedges"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Chicken Tacos",
+            "category": "Mexican",
+            "price": 229,
+            "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47",
+            "preparation": [
+                "Marinate chicken pieces with lime juice and taco spices",
+                "Heat a skillet or grill over medium-high heat",
+                "Cook marinated chicken until fully cooked and slightly charred",
+                "Let cooked chicken rest, then slice or shred it",
+                "Warm corn or flour tortillas on a dry skillet",
+                "Dice fresh tomatoes, onions, and cilantro for topping",
+                "Shred lettuce and prepare a squeeze of lime",
+                "Fill each tortilla with the sliced chicken",
+                "Top with fresh salsa, onions, cilantro, and lettuce",
+                "Serve with lime wedges and hot sauce on the side"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "BBQ Ribs",
+            "category": "American",
+            "price": 449,
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947",
+            "preparation": [
+                "Remove the silver skin membrane from the rack of ribs",
+                "Rub ribs generously with a dry spice rub",
+                "Let ribs marinate in the refrigerator for a few hours",
+                "Preheat smoker or oven to a low, steady temperature",
+                "Slow-cook ribs for several hours until tender",
+                "Baste ribs periodically with BBQ sauce while cooking",
+                "Increase heat briefly to caramelize the sauce",
+                "Check for tenderness by testing if meat pulls from the bone",
+                "Rest the ribs for a few minutes after cooking",
+                "Slice between the bones and serve with extra BBQ sauce"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Pasta Carbonara",
+            "category": "Italian",
+            "price": 329,
+            "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3",
+            "preparation": [
+                "Bring a large pot of salted water to a boil",
+                "Cook spaghetti until al dente",
+                "Fry diced pancetta or guanciale until crispy",
+                "Whisk eggs with grated parmesan and black pepper",
+                "Reserve some pasta water before draining the spaghetti",
+                "Drain pasta and add it directly to the pancetta pan",
+                "Remove pan from heat to avoid scrambling the eggs",
+                "Quickly stir in the egg and cheese mixture",
+                "Add reserved pasta water gradually to create a creamy sauce",
+                "Plate and finish with extra parmesan and black pepper"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Greek Salad",
+            "category": "Mediterranean",
+            "price": 199,
+            "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+            "preparation": [
+                "Wash and chop cucumbers, tomatoes, and green peppers",
+                "Slice red onion thinly",
+                "Combine chopped vegetables in a large bowl",
+                "Add whole Kalamata olives to the mix",
+                "Cut feta cheese into cubes or a large slab",
+                "Drizzle extra virgin olive oil generously over the salad",
+                "Season with dried oregano, salt, and pepper",
+                "Add a splash of red wine vinegar",
+                "Toss vegetables gently while keeping feta intact",
+                "Serve chilled with crusty bread on the side"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Ramen Bowl",
+            "category": "Japanese",
+            "price": 349,
+            "image": "https://images.unsplash.com/photo-1557872943-16a5ac26437e",
+            "preparation": [
+                "Prepare a rich broth using pork or chicken bones simmered for hours",
+                "Strain the broth and season with soy sauce and miso",
+                "Cook ramen noodles in boiling water until springy",
+                "Soft-boil eggs and marinate them in a soy-based sauce",
+                "Slice chashu pork or prepared protein thinly",
+                "Chop green onions and prepare nori sheets",
+                "Warm serving bowls before assembling",
+                "Ladle hot broth into each bowl",
+                "Add cooked noodles into the broth",
+                "Top with sliced pork, marinated egg, nori, and green onions"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Fish and Chips",
+            "category": "British",
+            "price": 299,
+            "image": "https://images.unsplash.com/photo-1579208570378-8c970854bc23",
+            "preparation": [
+                "Cut potatoes into thick chip-sized strips",
+                "Par-boil or par-fry chips until slightly tender",
+                "Prepare a beer batter with flour, baking powder, and cold beer",
+                "Pat fish fillets dry and season with salt",
+                "Dip fish fillets into the beer batter to coat evenly",
+                "Heat oil in a deep fryer to the correct temperature",
+                "Fry the battered fish until golden and crispy",
+                "Fry the par-cooked chips a second time until crisp",
+                "Drain both fish and chips on paper towels",
+                "Serve hot with tartar sauce, malt vinegar, and lemon wedges"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Butter Chicken",
+            "category": "Indian",
+            "price": 379,
+            "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+            "preparation": [
+                "Marinate chicken pieces in yogurt and spices",
+                "Grill or pan-sear the marinated chicken until charred",
+                "Saute onions, ginger, and garlic until fragrant",
+                "Add tomato puree and cook until the oil separates",
+                "Blend the tomato mixture into a smooth gravy",
+                "Return the mixture to the pan and add cream",
+                "Stir in butter and garam masala",
+                "Add the cooked chicken pieces into the gravy",
+                "Simmer until chicken absorbs the flavors of the sauce",
+                "Garnish with fresh cream and cilantro before serving"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Beef Steak",
+            "category": "American",
+            "price": 549,
+            "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e",
+            "preparation": [
+                "Bring the steak to room temperature before cooking",
+                "Pat the steak dry and season generously with salt and pepper",
+                "Heat a cast iron skillet until very hot",
+                "Add oil and sear the steak for a few minutes per side",
+                "Add butter, garlic, and herbs to the pan",
+                "Baste the steak continuously with the melted butter",
+                "Check internal temperature for desired doneness",
+                "Remove steak from the pan and let it rest",
+                "Slice against the grain",
+                "Plate and drizzle with the pan juices before serving"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Chicken Wings",
+            "category": "American",
+            "price": 279,
+            "image": "https://images.unsplash.com/photo-1608039755401-742074f0548d",
+            "preparation": [
+                "Pat chicken wings dry with paper towels",
+                "Season wings with salt, pepper, and baking powder",
+                "Arrange wings on a wire rack over a baking sheet",
+                "Bake or fry wings until crispy and fully cooked",
+                "Prepare a sauce such as buffalo, BBQ, or honey garlic",
+                "Melt butter and mix it into the chosen sauce",
+                "Toss the hot cooked wings in the sauce",
+                "Ensure wings are evenly coated",
+                "Plate the wings and garnish with chopped herbs",
+                "Serve with celery sticks and a dipping sauce"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Pho Soup",
+            "category": "Vietnamese",
+            "price": 299,
+            "image": "https://images.unsplash.com/photo-1591814468924-caf88d1232e1",
+            "preparation": [
+                "Char onion and ginger over an open flame",
+                "Simmer beef bones with charred aromatics for hours",
+                "Skim impurities from the broth periodically",
+                "Season broth with fish sauce, star anise, and cinnamon",
+                "Strain the broth until clear",
+                "Soak rice noodles until soft and pliable",
+                "Thinly slice raw beef for topping",
+                "Blanch noodles quickly in hot water",
+                "Assemble noodles and raw beef slices in a bowl",
+                "Pour hot broth over the top and garnish with herbs and lime"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Pepperoni Pizza",
+            "category": "Italian",
+            "price": 349,
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e",
+            "preparation": [
+                "Prepare and proof pizza dough until doubled in size",
+                "Roll or stretch the dough into a round base",
+                "Preheat oven or pizza stone to a high temperature",
+                "Spread tomato sauce evenly over the dough",
+                "Sprinkle a generous layer of shredded mozzarella",
+                "Arrange pepperoni slices evenly across the top",
+                "Drizzle lightly with olive oil",
+                "Bake until the crust is golden and cheese is bubbly",
+                "Remove from oven and let it rest briefly",
+                "Slice into wedges and serve hot"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Falafel Wrap",
+            "category": "Mediterranean",
+            "price": 199,
+            "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+            "preparation": [
+                "Soak dried chickpeas overnight",
+                "Blend chickpeas with herbs, garlic, and spices",
+                "Shape the mixture into small balls or patties",
+                "Chill falafel mixture briefly to firm up",
+                "Heat oil for frying in a deep pan",
+                "Fry falafel balls until golden and crispy outside",
+                "Warm flatbread or pita on a skillet",
+                "Spread hummus or tahini sauce on the bread",
+                "Layer falafel with lettuce, tomato, and pickles",
+                "Roll the wrap tightly and serve immediately"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Fried Rice",
+            "category": "Chinese",
+            "price": 249,
+            "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+            "preparation": [
+                "Cook rice ahead of time and let it cool completely",
+                "Heat oil in a wok over high heat",
+                "Scramble eggs and set them aside",
+                "Stir-fry diced vegetables such as carrots and peas",
+                "Add diced protein like chicken or shrimp if desired",
+                "Add the cooled rice to the wok",
+                "Break up any clumps of rice while stir-frying",
+                "Season with soy sauce and a dash of sesame oil",
+                "Fold in the scrambled eggs and green onions",
+                "Toss everything together and serve hot"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Lobster Roll",
+            "category": "Seafood",
+            "price": 499,
+            "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b",
+            "preparation": [
+                "Boil or steam lobster until fully cooked",
+                "Let lobster cool before removing the meat from the shell",
+                "Chop the lobster meat into bite-sized chunks",
+                "Mix lobster meat with mayonnaise and a squeeze of lemon",
+                "Season the mixture with salt and pepper",
+                "Add finely diced celery for crunch",
+                "Split and butter top-loading hot dog buns",
+                "Toast the buns on a griddle until golden",
+                "Fill the toasted buns generously with the lobster mixture",
+                "Garnish with chives and serve immediately"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Croissant",
+            "category": "French",
+            "price": 149,
+            "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a",
+            "preparation": [
+                "Prepare a yeasted dough and let it rest in the fridge",
+                "Flatten butter into a block for laminating",
+                "Encase the butter block within the dough",
+                "Roll and fold the dough multiple times to create layers",
+                "Chill the dough between each folding step",
+                "Roll the laminated dough out into a large rectangle",
+                "Cut the dough into triangles",
+                "Roll each triangle into a crescent shape",
+                "Let shaped croissants proof until puffy",
+                "Bake until golden brown and flaky, then cool slightly before serving"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Burrito Bowl",
+            "category": "Mexican",
+            "price": 329,
+            "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f",
+            "preparation": [
+                "Cook rice and season with lime juice and cilantro",
+                "Season and cook protein such as chicken or beef",
+                "Prepare black beans with cumin and garlic",
+                "Dice fresh tomatoes and onions for salsa",
+                "Slice avocado or prepare guacamole",
+                "Shred lettuce and grate cheese",
+                "Layer rice as the base in a serving bowl",
+                "Add beans and cooked protein on top",
+                "Arrange salsa, guacamole, lettuce, and cheese around the bowl",
+                "Finish with a dollop of sour cream and serve"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Tom Yum Soup",
+            "category": "Thai",
+            "price": 229,
+            "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12",
+            "preparation": [
+                "Bring water or stock to a boil in a pot",
+                "Add lemongrass, galangal, and kaffir lime leaves",
+                "Simmer aromatics to infuse the broth",
+                "Add mushrooms and simmer until tender",
+                "Add shrimp or chicken to the broth",
+                "Cook protein until just done",
+                "Season broth with fish sauce and lime juice",
+                "Stir in Thai chili paste for heat and color",
+                "Adjust seasoning with sugar for balance",
+                "Ladle into bowls and garnish with cilantro before serving"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Pancakes",
+            "category": "Breakfast",
+            "price": 199,
+            "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445",
+            "preparation": [
+                "Whisk together flour, sugar, baking powder, and salt",
+                "In a separate bowl, mix milk, egg, and melted butter",
+                "Combine wet and dry ingredients until just mixed",
+                "Let the batter rest for a few minutes",
+                "Heat a griddle or non-stick pan over medium heat",
+                "Lightly grease the pan with butter",
+                "Pour batter onto the pan to form rounds",
+                "Cook until bubbles form on the surface, then flip",
+                "Cook the other side until golden brown",
+                "Stack pancakes and serve with syrup and butter"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Beef Tacos",
+            "category": "Mexican",
+            "price": 249,
+            "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b",
+            "preparation": [
+                "Brown ground beef in a skillet over medium heat",
+                "Drain excess fat from the cooked beef",
+                "Season the beef with taco spices and a splash of water",
+                "Simmer until the sauce thickens slightly",
+                "Warm taco shells or tortillas",
+                "Shred lettuce and dice tomatoes",
+                "Grate cheese for topping",
+                "Fill each shell with the seasoned beef",
+                "Top with lettuce, tomato, and cheese",
+                "Serve with salsa and sour cream on the side"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Salmon Sashimi",
+            "category": "Japanese",
+            "price": 449,
+            "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56",
+            "preparation": [
+                "Select sushi-grade fresh salmon",
+                "Chill the salmon thoroughly before slicing",
+                "Sharpen a sashimi knife for clean cuts",
+                "Trim any skin or bones from the fillet",
+                "Slice the salmon against the grain into thin pieces",
+                "Wipe the knife clean between each cut",
+                "Arrange the slices neatly on a chilled plate",
+                "Garnish with shredded daikon radish",
+                "Add a small mound of wasabi",
+                "Serve with soy sauce for dipping"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Chicken Biryani",
+            "category": "Indian",
+            "price": 349,
+            "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8",
+            "preparation": [
+                "Marinate chicken in yogurt and biryani spices",
+                "Soak basmati rice in water for 30 minutes",
+                "Par-boil the rice with whole spices until partially cooked",
+                "Cook the marinated chicken until nearly done",
+                "Fry sliced onions until golden and crispy",
+                "Layer the partially cooked rice over the chicken",
+                "Sprinkle fried onions, saffron milk, and fresh herbs between layers",
+                "Cover the pot tightly to seal in steam",
+                "Cook on low heat using the dum method until fully done",
+                "Gently fluff and mix before serving hot"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Avocado Toast",
+            "category": "Breakfast",
+            "price": 179,
+            "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d",
+            "preparation": [
+                "Toast slices of bread until golden and crisp",
+                "Cut a ripe avocado in half and remove the pit",
+                "Scoop the avocado flesh into a bowl",
+                "Mash the avocado with a fork",
+                "Season the mashed avocado with salt, pepper, and lemon juice",
+                "Spread the mashed avocado evenly over the toast",
+                "Add optional toppings like cherry tomatoes or feta",
+                "Sprinkle with red chili flakes for heat",
+                "Drizzle a little olive oil over the top",
+                "Serve immediately while the toast is warm"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Spring Rolls",
+            "category": "Vietnamese",
+            "price": 199,
+            "image": "https://images.unsplash.com/photo-1594837318433-96c16f6c5e99",
+            "preparation": [
+                "Soften rice paper wrappers in warm water",
+                "Prepare fillings such as shrimp, herbs, and vermicelli noodles",
+                "Cook and cool the shrimp before slicing in half",
+                "Lay the softened rice paper flat on a clean surface",
+                "Arrange lettuce and herbs on the lower third of the wrapper",
+                "Add noodles and shrimp on top of the herbs",
+                "Fold the sides of the wrapper inward",
+                "Roll tightly from the bottom to seal the filling",
+                "Repeat with remaining wrappers and fillings",
+                "Serve fresh with peanut or hoisin dipping sauce"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Chicken Parmesan",
+            "category": "Italian",
+            "price": 399,
+            "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8",
+            "preparation": [
+                "Pound chicken breasts to an even thickness",
+                "Season chicken with salt and pepper",
+                "Dredge chicken in flour, then egg, then breadcrumbs",
+                "Heat oil in a skillet for pan-frying",
+                "Fry breaded chicken until golden and crisp on both sides",
+                "Spread marinara sauce in a baking dish",
+                "Place the fried chicken on top of the sauce",
+                "Top chicken with more marinara and shredded mozzarella",
+                "Bake until the cheese is melted and bubbly",
+                "Garnish with fresh basil and serve with pasta"
+            ]
+        }
+    ]
+}
